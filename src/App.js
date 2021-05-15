@@ -1,23 +1,53 @@
-import logo from './logo.svg';
+import { Route, Switch, BrowserRouter as Router} from "react-router-dom"
+
+//components
+import Menu from "./Components/Menu"
+
+//pages
+import HomePage from "./Sites/HomePage"
+import Page from "./Sites/Price"
+import Portfolio from "./Sites/Portfolio"
+import Contact from "./Sites/Contact"
+import Test1 from "./Sites/Test1"
+import BackgroundParticles from "./Components/Particles"
+
+//styles
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <BackgroundParticles className="particles-bckground"/>
+      <Router >
+        <Menu/>
+        <Switch>
+          <Route  exact path="/" render= {()=>(
+            <HomePage />   
+          )
+          }/>
+
+          <Route path="/Price" render= {()=>(
+            <Page/>
+          )
+          }/>
+
+          <Route path="/Portfolio" render= {()=>(
+            <Portfolio/>   
+          )
+          }/>
+
+          <Route path="/Contact" render= {()=>(
+            <Contact/>   
+          )
+          }/>
+
+          <Route path="/Test1" render= {()=>(
+            <Test1/>   
+          )
+          }/>
+
+        </Switch>
+      </Router>
     </div>
   );
 }
