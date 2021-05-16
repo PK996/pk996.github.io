@@ -40,7 +40,7 @@ class Calculator extends Component {
   render() {
     const { paintedArea, layers, colorType, summary, location } = this.state;
     return (
-      <div>
+      <>
         <div>
           <form>
             <p>
@@ -109,8 +109,10 @@ class Calculator extends Component {
             <button onClick={this.handleFormSubmit}>Vypočítat odhad</button>
           </form>
         </div>
-        <div className="result">{summary}</div>
-      </div>
+        <div className="result">
+          {summary}
+        </div>
+      </>
     );
   }
 }
