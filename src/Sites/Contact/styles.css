@@ -1,12 +1,12 @@
 .wholecontact {
-    color: wheat;
-    border-radius: 10px;
-    background-color: rgba(20, 20, 20, 0.99);
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+  color: wheat;
+  border-radius: 10px;
+  background-color: rgba(20, 20, 20, 0.99);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
-.contact{
-    max-width: 450px;   
+.contact {
+  max-width: 450px;
 }
