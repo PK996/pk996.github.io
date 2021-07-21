@@ -5,11 +5,10 @@ import Menu from "./Components/Menu";
 
 //pages
 import HomePage from "./Sites/HomePage";
-import Page from "./Sites/Price";
+import Painting from "./Sites/Painting";
 import Portfolio from "./Sites/Portfolio";
-import Contact from "./Sites/Contact";
-import Test1 from "./Sites/Test1";
 import BackgroundParticles from "./Components/Particles";
+import Coating from "./Sites/Coating";
 
 //styles
 import "./App.css";
@@ -23,13 +22,12 @@ function App() {
         <Switch>
           <Route exact path="/" render={() => <HomePage />} />
 
-          <Route path="/Price" render={() => <Page />} />
+          <Route path="/Painting" render={() => <Painting />} />
 
           <Route path="/Portfolio" render={() => <Portfolio />} />
 
-          <Route path="/Contact" render={() => <Contact />} />
+          <Route path="/Coating" render={() => <Coating />} />
 
-          <Route path="/Test1" render={() => <Test1 />} />
         </Switch>
       </Router>
     </div>

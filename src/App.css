@@ -48,3 +48,15 @@ button {
 button:hover {
   cursor: pointer;
 }
+
+a:visited {
+  color: wheat
+}
+
+a:hover {
+  color: white
+}
+
+a {
+  color: aliceblue;
+}

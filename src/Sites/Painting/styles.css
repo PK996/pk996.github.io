@@ -1,0 +1,28 @@
+.portfolio {
+  color: wheat;
+  margin: 3% 20% 0% 20%;
+  padding: 10px 20px 20px 30px;
+  border-radius: 10px;
+  background-color: rgba(20, 20, 20, 0.99);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.portfolioObject {
+  max-width: 450px;
+}
+
+.result {
+  font-size: larger;
+  margin: 10px 0px 15px 0px;
+}
+
+
+.List {
+  margin: 10px 0px 0px -25px;
+}
+
+.ListItem {
+  margin: 10px 0px 0px 0px;
+}

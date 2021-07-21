@@ -1,0 +1,31 @@
+.portfolio {
+  color: wheat;
+  margin: 3% 20% 0% 20%;
+  padding: 10px 20px 20px 30px;
+  border-radius: 10px;
+  background-color: rgba(20, 20, 20, 0.99);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.portfolioObject {
+  max-width: 450px;
+}
+
+.result {
+  font-size: larger;
+  margin: 50px 0px 50px 50px;
+}
+
+.FormCheckbox {
+  filter: invert(100%) hue-rotate(20deg) brightness(0.9);
+  margin: 0px 20px 0px 5px;
+  font-size: xx-large;
+  
+}
+
+.radioGroup {
+  margin: 10px 20px 30px 0px;
+  display: flex;
+}
