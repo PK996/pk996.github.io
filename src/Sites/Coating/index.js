@@ -7,7 +7,7 @@ function Coating() {
     <div className="portfolio">
       <div className="portfolioObject">
         <h1>Cena za natírání</h1>
-        <h3>Rdiátor</h3>
+        <h3>Radiátor</h3>
         <p>25 Kč/ žebro</p>
         <h3>Trubky</h3>
         <p>50 Kč/ m²</p>

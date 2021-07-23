@@ -9,7 +9,6 @@ function Contact() {
         <h3>Petr Vašíř</h3>
         <h3>email:</h3>
         <h3>tel.: +420 603 205 819</h3>
-
         <p>Lokace: Blansko, Adamov, Boskovice, Brno a okolí</p>
       </div>
     </div>

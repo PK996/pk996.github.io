@@ -1,9 +1,26 @@
 import React, { Component } from "react";
-import ReactDOM from 'react-dom';
-import Button from '@material-ui/core/Button';
-
+import Button from "@material-ui/core/Button";
+import Select from "@material-ui/core/Select";
+import { createTheme, ThemeProvider } from "@material-ui/core/styles";
+import TextField from "@material-ui/core/TextField";
 import FormInput from "../Input";
 import "./styles.css";
+
+const theme = createTheme({
+  palette: {
+    primary: {
+      main: "#f5deb4",
+      contrastText: "#000",
+      dark: "#fff",
+    },
+    text: {
+      primary: "#fff",
+    },
+    background: {
+      paper: "#000",
+    },
+  },
+});
 
 class Calculator extends Component {
   constructor(props) {
@@ -80,31 +97,37 @@ class Calculator extends Component {
 
     return (
       <>
-        <div>
-          <form>
-            <p>
-              Plocha sten k natření:
-              <FormInput
+        <ThemeProvider theme={theme}>
+          <div>
+            <form>
+              <p>Plocha sten k natření:</p>
+              <TextField
+                id="filled-number"
+                theme={theme}
+                color="primary"
                 type="number"
                 name="paintedArea"
                 placeholder="--Plocha v m²--"
                 value={paintedArea}
                 onChange={this.handleChange}
               />
-            </p>
-            <p>
-              Počet náteru:
-              <FormInput
+
+              <p>Počet náteru:</p>
+              <TextField
+                id="filled-number"
+                theme={theme}
+                color="primary"
                 type="number"
                 name="layers"
                 placeholder="--Vrstvy--"
                 value={layers}
                 onChange={this.handleChange}
               />
-            </p>
-            <label>
+
               <p>Typ Barvy: </p>
-              <select
+              <Select
+                native
+                defaultValue=""
                 id={colorType}
                 name="colorType"
                 onChange={this.handleChange}
@@ -112,11 +135,14 @@ class Calculator extends Component {
                 {colorTypeOptions.map((element) => {
                   return <option value={element.value}>{element.text}</option>;
                 })}
-              </select>
-            </label>
-            <label>
+              </Select>
+
               <p>Lokalita - vzálenost od Blanska: </p>
-              <select
+              <Select
+                native
+                defaultValue=""
+                text="secondary"
+                placeholder="Location"
                 id={location}
                 name="location"
                 onChange={this.handleChange}
@@ -124,64 +150,65 @@ class Calculator extends Component {
                 {locationOptions.map((element) => {
                   return <option value={element.value}>{element.text}</option>;
                 })}
-              </select>
-            </label>
-            <p>
-            Penetrace:
-            <div className="radioGroup">
-              <FormInput
-                id={penetration}
-                className="FormCheckbox"
-                label="Ne"
-                type="radio"
-                name="penetration"
-                value="0"
-                onChange={this.handleChange}
-              />
-              <FormInput
-                id={penetration}
-                className="FormCheckbox"
-                label="Ano"
-                type="radio"
-                name="penetration"
-                value="20"
-                onChange={this.handleChange}
-              />
-            </div>
-            </p>
-            <p>
-              Škrabání omítky:
-              <div className="radioGroup">
-                <FormInput
-                  id={scraping}
-                  label="Ne"
-                  className="FormCheckbox"
-                  type="radio"
-                  name="scraping"
-                  value="0"
-                  onChange={this.handleChange}
-                />
-                <FormInput
-                  id={scraping}
-                  label="Ano"
-                  className="FormCheckbox"
-                  type="radio"
-                  name="scraping"
-                  value="20"
-                  onChange={this.handleChange}
-                />
-              </div>
-            </p>
-            <p>+ paušální poplatek</p>
-            <button onClick={this.handleFormSubmit}>Vypočítat odhad</button>
-          </form>
-        </div>
-        <div className="result">{summary}</div>
-        <div>
-          <Button variant="contained" color="primary">
-            Hello World
-          </Button>
-        </div>
+              </Select>
+              <p>
+                Škrabání omítky:
+                <div className="radioGroup">
+                  <FormInput
+                    id={scraping}
+                    label="Ne"
+                    className="FormCheckbox"
+                    type="radio"
+                    name="scraping"
+                    value="0"
+                    onChange={this.handleChange}
+                  />
+                  <FormInput
+                    id={scraping}
+                    label="Ano"
+                    className="FormCheckbox"
+                    type="radio"
+                    name="scraping"
+                    value="20"
+                    onChange={this.handleChange}
+                  />
+                </div>
+              </p>
+              <p>
+                Penetrace:
+                <div className="radioGroup">
+                  <FormInput
+                    id={penetration}
+                    className="FormCheckbox"
+                    label="Ne"
+                    type="radio"
+                    name="penetration"
+                    value="0"
+                    onChange={this.handleChange}
+                  />
+                  <FormInput
+                    id={penetration}
+                    className="FormCheckbox"
+                    label="Ano"
+                    type="radio"
+                    name="penetration"
+                    value="20"
+                    onChange={this.handleChange}
+                  />
+                </div>
+              </p>
+
+              <Button
+                variant="contained"
+                color="primary"
+                onClick={this.handleFormSubmit}
+              >
+                Vypočítat odhad
+              </Button>
+            </form>
+          </div>
+          <div className="result">{summary}</div>
+        </ThemeProvider>
       </>
     );
   }

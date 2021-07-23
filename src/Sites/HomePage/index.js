@@ -10,8 +10,8 @@ function HomePage() {
           <h1>Vítejte!</h1>
           <p>
             Jmenuji se Petr Vašíř a nabízím služby v oblasti malířství a
-            natěračství. Maluji jak interiér, tak i exteriér rodinných domu,
-            bytu, státních zařízení a jiných objektů.
+            natěračství. Maluji jak interiér, tak i exteriér rodinných domů,
+            bytů, státních zařízení a jiných objektů.
           </p>
           <p>
             Moje zázemí je Blansko ale přijedu za Vámi i do širšího okolí. V
@@ -20,8 +20,8 @@ function HomePage() {
           </p>
           <h2>O mně</h2>
           <p>
-            Vystudoval jsem střední školu malířskou a této profesi se jakožto
-            živnostník v Česku věnuji více jak 25 let.
+            Vystudoval jsem střední školu malířskou a nateračskou v Brně. Profesi v
+            tomhle oboru se jakožto živnostník v Česku věnuji více jak 25 let.
           </p>
         </div>
         <div className="HomePageObject">

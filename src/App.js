@@ -27,7 +27,6 @@ function App() {
           <Route path="/Portfolio" render={() => <Portfolio />} />
 
           <Route path="/Coating" render={() => <Coating />} />
-
         </Switch>
       </Router>
     </div>
