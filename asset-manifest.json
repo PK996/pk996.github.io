@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/vasir-app.git/static/css/main.6c701d58.chunk.css",
-    "main.js": "/vasir-app.git/static/js/main.b6f5a93b.chunk.js",
-    "main.js.map": "/vasir-app.git/static/js/main.b6f5a93b.chunk.js.map",
-    "runtime-main.js": "/vasir-app.git/static/js/runtime-main.b5c1860a.js",
-    "runtime-main.js.map": "/vasir-app.git/static/js/runtime-main.b5c1860a.js.map",
-    "static/css/2.ed1298f3.chunk.css": "/vasir-app.git/static/css/2.ed1298f3.chunk.css",
-    "static/js/2.92673b00.chunk.js": "/vasir-app.git/static/js/2.92673b00.chunk.js",
-    "static/js/2.92673b00.chunk.js.map": "/vasir-app.git/static/js/2.92673b00.chunk.js.map",
-    "static/js/3.56b5db3a.chunk.js": "/vasir-app.git/static/js/3.56b5db3a.chunk.js",
-    "static/js/3.56b5db3a.chunk.js.map": "/vasir-app.git/static/js/3.56b5db3a.chunk.js.map",
-    "index.html": "/vasir-app.git/index.html",
-    "static/css/2.ed1298f3.chunk.css.map": "/vasir-app.git/static/css/2.ed1298f3.chunk.css.map",
-    "static/css/main.6c701d58.chunk.css.map": "/vasir-app.git/static/css/main.6c701d58.chunk.css.map",
-    "static/js/2.92673b00.chunk.js.LICENSE.txt": "/vasir-app.git/static/js/2.92673b00.chunk.js.LICENSE.txt",
-    "static/media/menuicon.ec0a38f8.png": "/vasir-app.git/static/media/menuicon.ec0a38f8.png",
-    "static/media/test1.1174547e.png": "/vasir-app.git/static/media/test1.1174547e.png"
+    "main.css": "/pk996.github.io/static/css/main.5eaf4b9a.chunk.css",
+    "main.js": "/pk996.github.io/static/js/main.b6f5a93b.chunk.js",
+    "main.js.map": "/pk996.github.io/static/js/main.b6f5a93b.chunk.js.map",
+    "runtime-main.js": "/pk996.github.io/static/js/runtime-main.9e6d1a7b.js",
+    "runtime-main.js.map": "/pk996.github.io/static/js/runtime-main.9e6d1a7b.js.map",
+    "static/css/2.ed1298f3.chunk.css": "/pk996.github.io/static/css/2.ed1298f3.chunk.css",
+    "static/js/2.92673b00.chunk.js": "/pk996.github.io/static/js/2.92673b00.chunk.js",
+    "static/js/2.92673b00.chunk.js.map": "/pk996.github.io/static/js/2.92673b00.chunk.js.map",
+    "static/js/3.56b5db3a.chunk.js": "/pk996.github.io/static/js/3.56b5db3a.chunk.js",
+    "static/js/3.56b5db3a.chunk.js.map": "/pk996.github.io/static/js/3.56b5db3a.chunk.js.map",
+    "index.html": "/pk996.github.io/index.html",
+    "static/css/2.ed1298f3.chunk.css.map": "/pk996.github.io/static/css/2.ed1298f3.chunk.css.map",
+    "static/css/main.5eaf4b9a.chunk.css.map": "/pk996.github.io/static/css/main.5eaf4b9a.chunk.css.map",
+    "static/js/2.92673b00.chunk.js.LICENSE.txt": "/pk996.github.io/static/js/2.92673b00.chunk.js.LICENSE.txt",
+    "static/media/menuicon.ec0a38f8.png": "/pk996.github.io/static/media/menuicon.ec0a38f8.png",
+    "static/media/test1.1174547e.png": "/pk996.github.io/static/media/test1.1174547e.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.b5c1860a.js",
+    "static/js/runtime-main.9e6d1a7b.js",
     "static/css/2.ed1298f3.chunk.css",
     "static/js/2.92673b00.chunk.js",
-    "static/css/main.6c701d58.chunk.css",
+    "static/css/main.5eaf4b9a.chunk.css",
     "static/js/main.b6f5a93b.chunk.js"
   ]
 }
