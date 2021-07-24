@@ -9,10 +9,13 @@ const useStyles = makeStyles(() =>
   createStyles({
     picture: {
       backgroundColor: "black",
+      borderRadius: "2%"
+      
     },
     background: {
       backgroundColor: "black",
       color: "white",
+      borderRadius: "2%"
     },
   })
 );

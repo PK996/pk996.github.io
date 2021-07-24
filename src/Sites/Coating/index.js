@@ -23,7 +23,7 @@ function Coating() {
         <p>
           odhad ceny je pouze orientační hodnota. Skutečná cena je závislá na
           dalších faktorech a vzájemné dohodě. Pro více informací a odhad na
-          místě mně neváhejte <Link to="/">kontaktovat</Link>.
+          místě mě neváhejte <Link to="/">kontaktovat</Link>.
         </p>
       </div>
     </div>

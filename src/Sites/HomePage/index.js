@@ -1,5 +1,6 @@
 import React from "react";
 import Contact from "../Contact";
+import Dialog from "../../Components/Dialog"
 import "./styles.css";
 
 function HomePage() {
@@ -26,6 +27,7 @@ function HomePage() {
         </div>
         <div className="HomePageObject">
           <Contact />
+
         </div>
       </div>
     </div>
