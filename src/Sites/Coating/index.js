@@ -11,7 +11,7 @@ function Coating() {
         <p>25 Kč/ žebro</p>
         <h3>Trubky</h3>
         <p>50 Kč/ m²</p>
-        <h3>Zárubeň</h3>
+        <h3>Zárubeň (futro)</h3>
         <p>300 - 450 Kč/ kus</p>
         <h3>Dveře</h3>
         <p>1000 - 1200 Kč/ kus</p>

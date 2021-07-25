@@ -73,7 +73,7 @@ class Calculator extends Component {
     } = this.state;
     const colorTypeOptions = [
       { value: "0", text: "--Vyberte barvu-- " },
-      { value: "45", text: "Bíla barva" },
+      { value: "45", text: "Bílá barva" },
       { value: "55", text: "Základní barvy" },
       { value: "60", text: "Speciálni barvy 60" },
       { value: "80", text: "Speciálni barvy 80" },
@@ -100,7 +100,7 @@ class Calculator extends Component {
         <ThemeProvider theme={theme}>
           <div>
             <form>
-              <p>Plocha sten k natření:</p>
+              <p>Plocha stěn k natření:</p>
               <TextField
                 id="filled-number"
                 theme={theme}
@@ -112,7 +112,7 @@ class Calculator extends Component {
                 onChange={this.handleChange}
               />
 
-              <p>Počet náteru:</p>
+              <p>Počet nátěrů:</p>
               <TextField
                 id="filled-number"
                 theme={theme}

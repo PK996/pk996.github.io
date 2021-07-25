@@ -27,11 +27,11 @@ function Painting() {
           <h2>Vysvětlivky</h2>
           <ul className="List">
             <li className="ListItem">
-              <b>Základní barvy </b> vznikají namícháním pigmentu dle požadavek
+              <b>Základní barvy </b> vznikají namícháním pigmentu dle požadavků
               klienta
             </li>
             <li className="ListItem">
-              <b>Speciální barvy,</b> které nelze namíchat jsou zakoupeny u
+              <b>Speciální barvy,</b> které nelze namíchat, jsou zakoupeny u
               specialistů a cena se pohybuje od 60 do 110 kč/ m²
             </li>
             <li className="ListItem">
