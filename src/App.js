@@ -1,4 +1,4 @@
-import { Route, Switch, BrowserRouter as Router } from "react-router-dom";
+import { Route, Switch } from "react-router-dom";
 
 //components
 import Menu from "./Components/Menu";
@@ -17,7 +17,6 @@ function App() {
   return (
     <div className="App">
       <BackgroundParticles className="particles-bckground" />
-      <Router>
         <Menu />
         <Switch>
           <Route exact path="/" render={() => <HomePage />} />
@@ -28,7 +27,6 @@ function App() {
 
           <Route path="/Coating" render={() => <Coating />} />
         </Switch>
-      </Router>
     </div>
   );
 }
