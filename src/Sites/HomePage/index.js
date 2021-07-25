@@ -15,14 +15,14 @@ function HomePage() {
             bytů, státních zařízení a jiných objektů.
           </p>
           <p>
-            Moje zázemí je Blansko ale přijedu za Vámi i do širšího okolí. V
-            případě zájmu si můžete na téhle stránce vypočítat hrubý odhady ceny
-            za malováni a najít můj kontakt
+          Moje zázemí je Blansko, ale přijedu za Vámi i do širšího okolí. 
+          V případě zájmu si můžete na téhle stránce vypočítat hrubý odhad 
+          ceny za malováni a najdete zde i kontakt na mě.
           </p>
           <h2>O mně</h2>
           <p>
-            Vystudoval jsem střední školu malířskou a nateračskou v Brně. Profesi v
-            tomhle oboru se jakožto živnostník v Česku věnuji více jak 25 let.
+          Vystudoval jsem střední školu malířskou a natěračskou v Brně. 
+          Tomuto řemeslu se jakožto živnostník v Česku věnuji více než 25 let.
           </p>
         </div>
         <div className="HomePageObject">

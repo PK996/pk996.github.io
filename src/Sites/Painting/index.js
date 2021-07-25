@@ -15,7 +15,7 @@ function Painting() {
         <p>
           odhad ceny je pouze orientační hodnota. Skutečná cena je závislá na
           dalších faktorech a vzájemné dohodě. Pro více informací a odhad na
-          místě mně neváhejte <Link to="/">kontaktovat</Link>.
+          místě mě neváhejte <Link to="/">kontaktovat</Link>.
         </p>
         <h2>Sádrování</h2>
         <p>
