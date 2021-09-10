@@ -1,13 +1,13 @@
 import React from "react";
 import Contact from "../Contact";
 import Dialog from "../../Components/Dialog"
-import "./styles.css";
+
 
 function HomePage() {
   return (
     <div>
-      <div className="HomePage">
-        <div className="HomePageObject">
+      <div className="Content">
+        <div className="contentObject">
           <h1>Vítejte!</h1>
           <p>
             Jmenuji se Petr Vašíř a nabízím služby v oblasti malířství a
@@ -25,7 +25,7 @@ function HomePage() {
           Tomuto řemeslu se jakožto živnostník v Česku věnuji více než 25 let.
           </p>
         </div>
-        <div className="HomePageObject">
+        <div className="contentObject">
           <Contact />
 
         </div>

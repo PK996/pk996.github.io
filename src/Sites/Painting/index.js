@@ -5,12 +5,12 @@ import "./styles.css";
 
 function Painting() {
   return (
-    <div className="portfolio">
-      <div className="portfolioObject">
+    <div className="Content">
+      <div className="contentObject">
         <h1>Odhad ceny</h1>
         <Calculator />
       </div>
-      <div className="portfolioObject">
+      <div className="contentObject">
         <h2>Upozornění,</h2>
         <p>
           odhad ceny je pouze orientační hodnota. Skutečná cena je závislá na

@@ -1,7 +1,6 @@
 .wholecontact {
   color: wheat;
   border-radius: 10px;
-  background-color: rgba(20, 20, 20, 0.99);
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;

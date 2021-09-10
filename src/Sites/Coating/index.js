@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 
 function Coating() {
   return (
-    <div className="portfolio">
-      <div className="portfolioObject">
+    <div className="Content">
+      <div className="contentObject">
         <h1>Cena za natírání</h1>
         <h3>Radiátor</h3>
         <p>25 Kč/ žebro</p>
@@ -18,7 +18,7 @@ function Coating() {
         <h3>Sokl</h3>
         <p>190 Kč/ m²</p>
       </div>
-      <div className="portfolioObject">
+      <div className="contentObject">
         <h2>Upozornění,</h2>
         <p>
           odhad ceny je pouze orientační hodnota. Skutečná cena je závislá na

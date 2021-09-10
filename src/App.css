@@ -9,6 +9,20 @@ body {
   background-size: cover;
 }
 
+.Content {
+  margin: 2% 10% 0% 10%;
+  padding: 10px 5px 0px 5px;
+  border-radius: 10px;
+  background-color: rgba(20, 20, 20, 0.99);
+  display: flex;
+  justify-content:space-around;
+  flex-wrap: wrap;
+}
+
+.contentObject {
+  max-width: 450px;
+}
+
 h1 {
   text-align: left;
   font-size: x-large;
@@ -50,14 +64,40 @@ button:hover {
 }
 
 a:visited {
-  color: wheat
+  color: wheat;
 }
 
 a:hover {
-  color: white
+  color: white;
 }
 
 a {
   color: aliceblue;
 }
 
+@media screen and (max-width: 550px) {
+  .Content {
+    margin: 0 0 0 0;
+    background-color: rgba(0, 0, 0, 0.719);
+    border-radius: 0px;
+  }
+
+  button {
+    width: 100%;
+  }
+
+  .contentObject {
+    max-width: 500px;
+  }
+}
+
+@media screen and (min-width: 550px) AND (max-width: 1150px) {
+  .Content {
+    margin: 1% 1% 1% 1%;
+    padding: 5px 10px 20px 30px;
+    background-color: rgba(0, 0, 0, 0.856);
+  }
+  .contentObject {
+    max-width: 250px;
+  }
+}
